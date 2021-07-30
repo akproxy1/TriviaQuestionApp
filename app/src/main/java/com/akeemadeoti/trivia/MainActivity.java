@@ -1,10 +1,6 @@
-package com.bawp.trivia;
+package com.akeemadeoti.trivia;
 
-import android.content.Context;
 import android.graphics.Color;
-import android.media.AudioAttributes;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -19,9 +15,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bawp.trivia.data.AnswerListAsyncResponse;
-import com.bawp.trivia.data.QuestionBank;
-import com.bawp.trivia.model.Question;
+import com.akeemadeoti.trivia.data.AnswerListAsyncResponse;
+import com.akeemadeoti.trivia.data.QuestionBank;
+import com.akeemadeoti.trivia.model.Question;
 
 import java.util.ArrayList;
 import java.util.List;
